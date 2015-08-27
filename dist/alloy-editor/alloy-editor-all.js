@@ -21853,10 +21853,6 @@ null},increment:function(a){this.getLast(a).inputs++},remove:function(a){a=this.
     }, {}, [1])(1)
 });
 
-    if (typeof window.React === 'undefined' && typeof AlloyEditor !== 'undefined') {
-        var React = AlloyEditor.React;
-    }
-
     if (typeof window !== 'undefined') {
        deployCKEditor();
 

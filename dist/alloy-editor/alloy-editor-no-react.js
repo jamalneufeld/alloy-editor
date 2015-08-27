@@ -949,10 +949,6 @@ null},increment:function(a){this.getLast(a).inputs++},remove:function(a){a=this.
 
     
 
-    if (typeof window.React === 'undefined' && typeof AlloyEditor !== 'undefined') {
-        var React = AlloyEditor.React;
-    }
-
     if (typeof window !== 'undefined') {
        deployCKEditor();
 

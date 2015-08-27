@@ -21131,10 +21131,6 @@
     }, {}, [1])(1)
 });
 
-    if (typeof window.React === 'undefined' && typeof AlloyEditor !== 'undefined') {
-        var React = AlloyEditor.React;
-    }
-
     if (typeof window !== 'undefined') {
        deployCKEditor();
 
