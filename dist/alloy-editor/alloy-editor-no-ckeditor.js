@@ -21131,7 +21131,7 @@
     }, {}, [1])(1)
 });
 
-    if (typeof React === 'undefined' && typeof AlloyEditor !== 'undefined') {
+    if (typeof window.React === 'undefined' && typeof AlloyEditor !== 'undefined') {
         var React = AlloyEditor.React;
     }
 
