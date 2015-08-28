@@ -7137,11 +7137,10 @@ CKEDITOR.tools.buildTableMap = function (table) {
                 };
 
                 editor.fire('imageAdd', imageData);
+                inputEl.value = '';
             }).bind(this);
 
             reader.readAsDataURL(inputEl.files[0]);
-
-            inputEl.value = '';
         }
 
         /**
