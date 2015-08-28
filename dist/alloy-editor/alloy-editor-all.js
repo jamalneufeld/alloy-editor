@@ -26228,13 +26228,13 @@ CKEDITOR.tools.buildTableMap = function (table) {
              * make AlloyEditor to work properly.
              *
              * @property extraPlugins
-             * @default 'uicore,selectionregion,dragresize,addimages,placeholder,tabletools,tableresize,autolink'
+             * @default 'uicore,selectionregion,dragresize,placeholder,tabletools,tableresize,autolink'
              * @writeOnce
              * @type {String}
              */
             extraPlugins: {
                 validator: AlloyEditor.Lang.isString,
-                value: 'ae_uicore,ae_selectionregion,ae_dragresize,ae_addimages,ae_placeholder,ae_tabletools,ae_tableresize,ae_autolink',
+                value: 'ae_uicore,ae_selectionregion,ae_dragresize,ae_placeholder,ae_tabletools,ae_tableresize,ae_autolink',
                 writeOnce: true
             },
 
